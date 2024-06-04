@@ -1,0 +1,17 @@
+{
+  "name": "test-inherit-metadata",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "inherit": "node ./src/inherit.js",
+    "gen": "node ./src/genUuid.js",
+    "test": "node ./test/a.js"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "json-format": "^1.0.1",
+    "uuid": "^9.0.1"
+  }
+}
